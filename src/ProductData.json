@@ -1,0 +1,195 @@
+
+  const productDiscription = [
+    {
+      "name": "Brown brim",
+      "price": 25,
+      "src": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+    },
+    {
+      name: "blue beanie",
+      price: 18,
+      src: "https://i.ibb.co/ypkgK0X/blue-beanie.png",
+    },
+    {
+      name: "brown cowboy",
+      price: 35,
+      src: "https://i.ibb.co/QdJwgmp/brown-cowboy.png",
+    },
+    {
+      name: "grey brim",
+      price: 25,
+      src: "https://i.ibb.co/RjBLWxB/grey-brim.png",
+    },
+    {
+      name: "green beanie",
+      price: 18,
+      src: "https://i.ibb.co/YTjW3vF/green-beanie.png",
+    },
+    {
+      name: "palm tree cap",
+      price: 14,
+      src: "https://i.ibb.co/rKBDvJX/palm-tree-cap.png",
+    },
+    {
+      name: "red beanie",
+      price: 18,
+      src: "https://i.ibb.co/bLB646Z/red-beanie.png",
+    },
+    {
+      name: "wolf cap",
+      price: 14,
+      src: "https://i.ibb.co/1f2nWMM/wolf-cap.png",
+    },
+    {
+      name: "blue snapback",
+      price: 16,
+      src: "https://i.ibb.co/X2VJP2W/blue-snapback.png",
+    },
+  ];
+
+  const productDiscription = [
+    {
+      name: "black jean shearling",
+      price: 125,
+      src: "https://i.ibb.co/XzcwL5s/black-shearling.png",
+    },
+    {
+      name: "blue bean jacket",
+      price: 90,
+      src: "https://i.ibb.co/mJS6vz0/blue-jean-jacket.png",
+    },
+    {
+      name: "grey jean jacket",
+      price: 90,
+      src: "https://i.ibb.co/N71k1ML/grey-jean-jacket.png",
+    },
+    {
+      name: "brown shearling",
+      price: 165,
+      src: "https://i.ibb.co/s96FpdP/brown-shearling.png",
+    },
+    {
+      name: "tan trench",
+      price: 185,
+      src: "https://i.ibb.co/M6hHc3F/brown-trench.png",
+    },
+  ];
+
+  const productDiscription = [
+    {
+      name: "camo downn vest",
+      price: 325,
+      src: "https://i.ibb.co/xJS0T3Y/camo-vest.png",
+    },
+    {
+      name: "floral t-shirt",
+      price: 120,
+      src: "https://i.ibb.co/qMQ75QZ/floral-shirt.png",
+    },
+    {
+      name: "black & white longsleeve",
+      price: 225,
+      src: "https://i.ibb.co/55z32tw/long-sleeve.png",
+    },
+    {
+      name: "pink shirt",
+      price: 135,
+      src: "https://i.ibb.co/RvwnBL8/pink-shirt.png",
+    },
+    {
+      name: "jean long sleeve",
+      price: 160,
+      src: "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png",
+    },
+    {
+      name: "burgundy t-shirt",
+      price: 70,
+      src: "https://i.ibb.co/mh3VM1f/polka-dot-shirt.png",
+    },
+  ];
+
+  const productDiscription = [
+    {
+      name: "adidas NMD",
+      price: 220,
+      src: "https://i.ibb.co/0s3pdnc/adidas-nmd.png",
+    },
+    {
+      name: "adidas yeezy",
+      price: 280,
+      src: "https://i.ibb.co/dJbG1cT/yeezy.png",
+    },
+    {
+      name: "black converse",
+      price: 110,
+      src: "https://i.ibb.co/bPmVXyP/black-converse.png",
+    },
+    {
+      name: "nike white airforce",
+      price: 160,
+      src: "https://i.ibb.co/1RcFPk0/white-nike-high-tops.png",
+    },
+    {
+      name: "nike red high tops",
+      price: 160,
+      src: "https://i.ibb.co/QcvzydB/nikes-red.png",
+    },
+    {
+      name: "nike brown airforce",
+      price: 160,
+      src: "https://i.ibb.co/fMTV342/nike-brown.png",
+    },
+    {
+      name: "air jordan limited",
+      price: 190,
+      src: "https://i.ibb.co/w4k6Ws9/nike-funky.png",
+    },
+    {
+      name: "timberlands",
+      price: 200,
+      src: "https://i.ibb.co/Mhh6wBg/timberlands.png",
+    },
+  ];
+
+  const productDiscription = [
+    {
+      name: "blue tanktop",
+      price: 25,
+      src: "https://i.ibb.co/7CQVJNm/blue-tank.png",
+    },
+    {
+      name: "floral blouse",
+      price: 20,
+      src: "https://i.ibb.co/4W2DGKm/floral-blouse.png",
+    },
+    {
+      name: "floral dress",
+      price: 80,
+      src: "https://i.ibb.co/KV18Ysr/floral-skirt.png",
+    },
+    {
+      name: "red dot dress",
+      price: 80,
+      src: "https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png",
+    },
+    {
+      name: "striped sweater",
+      price: 45,
+      src: "https://i.ibb.co/KmSkMbH/striped-sweater.png",
+    },
+    {
+      name: "yellow track suit",
+      price: 135,
+      src: "https://i.ibb.co/v1cvwNf/yellow-track-suit.png",
+    },
+    {
+      name: "white blouse",
+      price: 20,
+      src: "https://i.ibb.co/qBcrsJg/white-vest.png",
+    },
+    {
+      name: "crop top outfit",
+      price: 190,
+      src: "https://images.bewakoof.com/utter/content/2581/content_2__2_.jpg",
+    },
+  ];

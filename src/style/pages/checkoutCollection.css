@@ -1,0 +1,111 @@
+.checkout {
+  padding: 5% 0;
+  height: auto;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.checkout-items {
+  border: none;
+  border-bottom: 1px solid gray;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr 1fr 0.5fr;
+  width: 65vw;
+  align-items: center;
+}
+.height-set {
+  height: 30px;
+}
+
+.single-item {
+  padding: 1% 0;
+}
+
+.d-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkout-items img {
+  width: 55%;
+  height: 8vw;
+  object-fit: cover;
+}
+
+.quantity {
+  display: flex;
+  gap: 10px;
+}
+.cursor-pointer:hover {
+  cursor: pointer;
+}
+.close-button {
+  height: 30px;
+  width: 30px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: none;
+}
+
+.totalPrice {
+  display: flex;
+  justify-content: flex-end;
+  width: 70%;
+  font-size: 40px;
+  padding: 10px;
+}
+
+.StripeCheckout {
+  overflow: hidden;
+  display: flex;
+  background: linear-gradient(rgb(40, 160, 229), rgb(1, 94, 148));
+  border: 0px;
+  padding: 1px;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 0px;
+  cursor: pointer;
+  visibility: visible;
+}
+
+.stripSpan {
+  background-image: linear-gradient(
+    rgb(125, 197, 238),
+    rgb(0, 140, 221) 85%,
+    rgb(48, 162, 228)
+  );
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  position: relative;
+  padding: 0px 12px;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+  text-shadow: rgba(0, 0, 0, 0.25) 0px -1px 0px;
+  border-radius: 4px;
+}
+
+@media (max-width: 731px) {
+  .checkout-items {
+    width: 100%;
+  }
+  .totalPrice {
+    width: 100%;
+    font-size: 26px;
+  }
+  .checkout-items img {
+    height: 7vh;
+  }
+}
