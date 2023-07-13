@@ -11,6 +11,7 @@ export default function AllCollection() {
   useEffect(() => {
     const showProduct = async () => {
       setLoading(true);
+
       const product = await fetch("http://localhost:8080/shop");
       const response = await product.json();
       setFilterData(response.data);
